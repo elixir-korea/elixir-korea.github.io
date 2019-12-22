@@ -1,0 +1,37 @@
+name: Deploy to elixir-korea.github.io
+
+on:
+  push:
+    branches:
+    - source
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    container:
+      image: elixir:1.9.1-slim
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install Dependencies
+      run: |
+        mix local.rebar --force
+        mix local.hex --force
+        mix deps.get
+
+    - name: Build static files
+      run: |
+        mix deps.compile
+        mix serum.build
+        touch ./site/.nojekyll
+
+    - name: Deploy to elixir-korea.github.io
+      uses: peaceiris/actions-gh-pages@v2
+      env:
+        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        PUBLISH_BRANCH: master
+        PUBLISH_DIR: ./site
+      with:
+        emptyCommits: false
