@@ -27,3 +27,6 @@ elixir_korea_blog-*.tar
 
 # ElixirLS - VSCode Extension
 /.elixir_ls/
+
+# ending with ~; backup files by some Editors
+*~
