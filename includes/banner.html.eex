@@ -1,0 +1,9 @@
+<a href="<%= base() %>">
+  <div class="logo-container">
+    <img class="logo" src="<%= asset "logo/logo.svg" %>">
+    <div>
+      <img class="logo-text" src="<%= asset "logo/logo-text.svg" %>">
+      <p><%= @site.description %></p>
+    </div>
+  </div>
+</a>

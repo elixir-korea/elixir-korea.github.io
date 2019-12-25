@@ -1,0 +1,13 @@
+header#top .logo-container {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header#top .logo-container img.logo {
+  margin-right: 22px;
+}
+
+header#top .logo-container img.logo-text {
+  margin-bottom: 0.5em;
+}
