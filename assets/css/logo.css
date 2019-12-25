@@ -11,3 +11,15 @@ header#top .logo-container img.logo {
 header#top .logo-container img.logo-text {
   margin-bottom: 0.5em;
 }
+
+@media screen and (max-width: 899px) {
+  header#top .logo-container img.logo {
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  header#top .logo-container img.logo-text {
+    height: 18px;
+    margin-bottom: 0;
+  }
+}
