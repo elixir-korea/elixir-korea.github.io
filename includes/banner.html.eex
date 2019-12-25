@@ -1,0 +1,9 @@
+<a href="<%= base() %>">
+  <div class="logo-container">
+    <img class="logo" src="<%= asset "logo/logo.svg" %>" alt="Elixir Korea 로고">
+    <div>
+      <img class="logo-text" src="<%= asset "logo/logo-text.svg" %>" alt="Elixir Korea">
+      <p><%= @site.description %></p>
+    </div>
+  </div>
+</a>
