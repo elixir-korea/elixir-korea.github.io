@@ -48,6 +48,10 @@ Elixir Korea는 모든 분들의 참여를 환영합니다!
 
 위에 언급된 채널들을 통해 [Elixir Korea GitHub organization](https://github.com/elixir-korea)에 등록을 요청해주세요. 이후 자유롭게 일원으로써 참여하실 수 있습니다.
 
+- `source` branch로부터 새로운 branch를 생성해서 작업하고 PR을 올려주세요.
+- 1인 이상의 `approve`를 받고 나면 직접 `merge`합니다.
+- `merge`하면 바로 `GitHub Action`을 통해 배포됩니다. 작업하신 내용이 제대로 적용되었는지 확인해주세요.
+
 ### 간접적인 기여
 
 이 repo를 fork 해서 PR 부탁드립니다.
