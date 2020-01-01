@@ -1,1 +1,2 @@
 <link rel="stylesheet" href="<%= asset "css/logo.css" %>">
+<link rel="stylesheet" href="<%= asset "css/learning.css" %>">
