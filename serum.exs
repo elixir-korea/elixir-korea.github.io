@@ -6,6 +6,7 @@
   author: "John Doe",
   author_email: "john.doe@example.com",
   plugins: [
+    Serum.Plugins.TableOfContents,
     {Serum.Plugins.LiveReloader, only: :dev}
   ],
   theme: Serum.Themes.Essence
