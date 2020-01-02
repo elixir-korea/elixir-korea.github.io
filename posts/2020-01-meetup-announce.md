@@ -1,7 +1,7 @@
 ---
 title: 2020년 1월 모임 공지
 date: 2019-12-26
-tags: meetup
+tags: announce
 ---
 
 2020년 1월 모임 공지
