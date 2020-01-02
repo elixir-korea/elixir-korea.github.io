@@ -1,7 +1,7 @@
 ---
 title: 2020년 1월 모임 공지
 date: 2019-12-26
-tags: announce
+tags: meetup
 ---
 
 2020년 1월 모임 공지
@@ -13,7 +13,7 @@ tags: announce
 
 정기 모임은 매달 3번쨰 수요일입니다만 이번달은 장소 섭외문제로 약간 변동이 있을수 있습니다.  
 케빈이 장소섭외를 예약중이라서 최종 결과가 결정되면 블로그와 밋업 사이트에 올리도록 하겠습니다.  
-이번모임에서는 2020년을 맞이하여 커뮤니티 활성화를 방법과 이번에 새로 만든 블러그에 대한 토의를 해보겠습니다.
+이번모임에서는 2020년을 맞이하여 커뮤니티 활성화를 방법과 이번에 새로 만든 블로그에 대한 토의를 해보겠습니다.
 
-[2020년 1월 밋업 사이트 링크](https://www.meetup.com/Seoul-Elixir-Meetup/events/cvzblrybccbtb/)
+[2020년 1월 밋업](https://www.meetup.com/Seoul-Elixir-Meetup/events/cvzblrybccbtb/)
 
