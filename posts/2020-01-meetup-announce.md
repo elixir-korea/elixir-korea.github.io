@@ -7,13 +7,22 @@ tags: meetup
 2020년 1월 모임 공지
 
 ```
-* 시간: 미정  
-* 장소: 미정  
+* 시간: 2020년 1월 15일. 오후 7시 30분
+* 장소: Healingpaper Office  
+        17th Floor 556 Gangnam-daero, Gangnam-gu, Seoul, 06044
+        서울특별시 강남구 논현동 50-1 논현빌딩 17층
+        http://kko.to/YQfyYkvjM
+
+
 ```
 
-정기 모임은 매달 3번쨰 수요일입니다만 이번달은 장소 섭외문제로 약간 변동이 있을수 있습니다.  
-케빈이 장소섭외를 예약중이라서 최종 결과가 결정되면 블로그와 밋업 사이트에 올리도록 하겠습니다.  
-이번모임에서는 2020년을 맞이하여 커뮤니티 활성화를 방법과 이번에 새로 만든 블로그에 대한 토의를 해보겠습니다.
+Details
+
+* 7:30 - 7:40: Meet and greet
+
+* 7:40 - 8:40: Presentation
+
+* 8:40 - Whenever: After party
 
 [2020년 1월 밋업](https://www.meetup.com/Seoul-Elixir-Meetup/events/cvzblrybccbtb/)
 
