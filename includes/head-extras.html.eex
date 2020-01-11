@@ -7,3 +7,14 @@
 <meta property="og:type" content="website"/>
 <link rel="stylesheet" href="<%= asset "css/logo.css" %>">
 <link rel="stylesheet" href="<%= asset "css/learning.css" %>">
+<%= if Mix.env() == :prod do %>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155413685-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-155413685-1');
+  </script>
+<% end %>
