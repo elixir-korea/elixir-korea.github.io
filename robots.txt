@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /posts/index.html
+Disallow: /posts/page-*.html
+Disallow: /tags/
+Disallow: /media/
+
+Sitemap: https://elixir-korea.github.io/sitemap.xml
