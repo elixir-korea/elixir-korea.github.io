@@ -8,6 +8,7 @@
   date_format: "{WDfull}, {D} {Mshort} {YYYY}",
   plugins: [
     Serum.Plugins.TableOfContents,
+    {Serum.Plugins.SitemapGenerator, args: [for: [:pages, :posts]]},
     {Serum.Plugins.LiveReloader, only: :dev}
   ],
   theme: Serum.Themes.Essence
