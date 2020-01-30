@@ -24,5 +24,5 @@ Details
 
 * 8:40 - Whenever: After party
 
-[2020년 1월 밋업](https://www.meetup.com/Seoul-Elixir-Meetup/events/cvzblrybccbtb/)
+[2020년 1월 밋업](https://www.meetup.com/Seoul-Elixir-Meetup/events/bsxpmrybccbtb/)
 
