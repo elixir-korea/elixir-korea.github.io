@@ -20,7 +20,7 @@ defmodule ElixirKoreaBlog.MixFile do
   defp deps do
     [
       {:serum, "~> 1.4"},
-      {:serum_theme_essence, "~> 1.0"},
+      {:serum_theme_essence, "~> 1.1"},
       # Temporary workaround to prevent breaking Timex
       {:gettext, "0.17.1"}
     ]
