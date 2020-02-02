@@ -12,6 +12,7 @@ title: Welcome
  * [Elixir Korea Facebook Group](https://www.facebook.com/groups/elixir.korea/)  
  * [Seoul Elixir Meetup](https://www.meetup.com/ko-KR/Seoul-Elixir-Meetup/)  
  * [Elixir Slack 의 #korea channel](https://elixir-lang.slack.com/)  
+ * [Elixir Korea Discord Server](https://discord.gg/mVNjg3e)
 
 
 ## 참여 부탁드립니다.
