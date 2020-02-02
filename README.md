@@ -9,6 +9,7 @@ Elixir Korea는 아래와 같은 채널들에서 활동하고 있습니다.
 - Elixir Korea Facebook Group (https://www.facebook.com/groups/elixir.korea/)
 - Seoul Elixir Meetup (https://www.meetup.com/ko-KR/Seoul-Elixir-Meetup/)
 - Elixir Slack #korea channel (https://elixir-lang.slack.com/)
+- Elixir Korea Discord Server (https://discord.gg/mVNjg3e)
 
 ## How to Run
 
