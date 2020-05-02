@@ -6,7 +6,7 @@ tags: elixir, setup, vscode
 
 안녕하세요. Json 입니다. Mac 에서 Elixir 로 개발할 때 일반적으로 사용되는 개발 환경 설정 방법을 알아보겠습니다.
 
-# asdf
+## asdf
 
 **asdf** 는 요즘 대세가 되어가고 있는 version manager 입니다.  
 [asdf vm - An extendable version manager](https://asdf-vm.com/)
@@ -24,7 +24,7 @@ $ brew install asdf
 $ brew install cmake
 ```
 
-# Elixir
+## Elixir
 
 elixir 는 erlang 을 기반으로 하는 언어라서 erlang, elixir 둘 다 설치가 필요합니다.
 
@@ -77,7 +77,7 @@ $ asdf global erlang 22.3.2
 $ asdf global elixir 1.10.2
 ```
 
-# VSCode
+## VSCode
 
 Elixir 를 개발하기에 VSCode 는 매우 좋은 IDE 입니다.
 
