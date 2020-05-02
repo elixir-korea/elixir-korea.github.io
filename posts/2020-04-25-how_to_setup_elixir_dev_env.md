@@ -70,11 +70,31 @@ master-otp-22
 $ asdf install elixir 1.10.2
 ```
 
-### asdf 에서 erlang, elixir global 버전 세팅
+### asdf 에서 erlang, elixir global 버전 설정
+
+asdf 에서는 local 버전이 설정되어있지 않을 때 공통적으로 적용되는 global 버전을 설정할 수 있습니다.  
+어떤 버전을 설치했다고 자동으로 설정되지 않기 때문에 직접 설정해주어야 합니다.
 
 ```bash
 $ asdf global erlang 22.3.2
 $ asdf global elixir 1.10.2
+```
+
+### asdf 에서 erlang, elixir local 버전 설정
+
+위에 언급했던 local 버전은 현재 path 와 그 하위 path 를 포함해 적용됩니다.  
+설정하면 자동으로 `.tool_versions` 파일이 생성되어 그 안에 기록됩니다. `.tool_versions` 파일을 직접 수정해도 똑같이 적용됩니다.
+
+```bash
+$ asdf local erlang 22.3.2
+$ asdf local elixir 1.10.2
+```
+
+```
+# .tool_versions
+
+erlang 22.3.2
+elixir 1.10.2
 ```
 
 ## VSCode
