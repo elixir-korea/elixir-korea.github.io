@@ -1,9 +1,10 @@
-<meta name="description" content="한국 엘릭서 사용자 모임, Elixir Korea의 블로그입니다.">
+<% description = ElixirKoreaBlog.OpenGraphHelper.og_description(@page) %>
+<meta name="description" content="<%= description %>">
 <meta name="keywords" content="Elixir, 엘릭서, Elixir Korea, 한국 엘릭서 사용자 모임, Blog, 블로그, Functional Programming, 함수형 프로그래밍">
-<meta property="og:title" content="한국 엘릭서 사용자 모임 블로그"/>
+<meta property="og:title" content="<%= ElixirKoreaBlog.OpenGraphHelper.og_title(@page, @site) %>"/>
 <meta property="og:image" content="<%= asset "logo/elixir-korea-full-logo.png" %>" />
-<meta property="og:description" content="한국 엘릭서 사용자 모임, Elixir Korea의 블로그입니다."/>
-<meta property="og:url" content="<%= @site.server_root %>" />
+<meta property="og:description" content="<%= description %>"/>
+<meta property="og:url" content="<%= Path.join(@site.server_root, @page.url) %>" />
 <meta property="og:type" content="website"/>
 <link rel="stylesheet" href="<%= asset "css/logo.css" %>">
 <link rel="stylesheet" href="<%= asset "css/learning.css" %>">
