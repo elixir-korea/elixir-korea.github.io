@@ -61,18 +61,14 @@ ElixirConf 행사의 발표들이 올라오는 Youtube 채널입니다.
 
 Erlang과 Elixir를 컨설팅해주는 Erlang Solutions의 Youtube 채널입니다.
 
-### Pragmaticstudio
+### The Pragmatic Studio with Mike &amp; Nicole Clark
+<a href="https://pragmaticstudio.com" target="_blank"><img class="learning-img" src="https://pragmaticstudio.com/assets/logo-grayscale-mn-285c954726899925d29e4779a124a1004e73b7a0ed415da9230e021127a236fe.png"></a>
 
-<a href="https://pragmaticstudio.com" target="_blank">
-<img class="learning-img" src="https://yt3.ggpht.com/a/AGF-l79aIh2WbQLKSJ7s1Frf25YeduQmMsvbVXMYKw=s288-c-k-c0xffffffff-no-rj-mo"></a>
+부부 개발자가하는 다양한 언어의 강의 사이트입니다.  
+Elixir 쪽은 OTP와 LiveView 등이 있습니다.  
+특히 LiveView 관련 강의는 18강까지 무료에 LiveView 초반 학습에 정말 좋습니다.  
+예제코드와 함께 만들며 학습이 가능합니다.  
 
-부부 개발자분들이 하는 강의 사이트입니다. 다양한 언어가 있습니다.
-
-Elixir 쪽은 OTP와 LiveView 등이 있습니다.
-
-특히 LiveView 관련 강의는 18강까지 무료에 LiveView 초반 학습에 정말 좋습니다.
-
-예제코드와 함께 만들며 학습이 가능합니다.
 
 
 ## 뉴스레터
