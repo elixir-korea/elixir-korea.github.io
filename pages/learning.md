@@ -70,7 +70,7 @@ Erlang과 Elixir를 컨설팅해주는 Erlang Solutions의 Youtube 채널입니�
 
 Elixir 쪽은 OTP와 LiveView 등이 있습니다.
 
-특히 Liveview 관련 강의는 18강까지 무료에 Liveview 초반 학습에 정말 좋습니다.
+특히 LiveView 관련 강의는 18강까지 무료에 LiveView 초반 학습에 정말 좋습니다.
 
 예제코드와 함께 만들며 학습이 가능합니다.
 
