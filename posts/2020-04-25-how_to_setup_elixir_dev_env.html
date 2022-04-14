@@ -1,0 +1,116 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Elixir 개발 환경을 설정해봅시다 (Mac) - Elixir Korea Blog</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/prism.css">
+    
+
+<meta name="description" content="안녕하세요. Json 입니다. Mac 에서 Elixir 로 개발할 때 일반적으로 사용되는 개발 환경 설정 방법을 알아보겠습니다.…">
+<meta name="keywords" content="Elixir, 엘릭서, Elixir Korea, 한국 엘릭서 사용자 모임, Blog, 블로그, Functional Programming, 함수형 프로그래밍">
+<meta property="og:title" content="Elixir 개발 환경을 설정해봅시다 (Mac) - 한국 엘릭서 사용자 모임 블로그"/>
+<meta property="og:image" content="/assets/logo/elixir-korea-full-logo.png" />
+<meta property="og:description" content="안녕하세요. Json 입니다. Mac 에서 Elixir 로 개발할 때 일반적으로 사용되는 개발 환경 설정 방법을 알아보겠습니다.…"/>
+<meta property="og:url" content="https://elixir-korea.github.io/posts/2020-04-25-how_to_setup_elixir_dev_env.html" />
+<meta property="og:type" content="website"/>
+<link rel="stylesheet" href="/assets/css/logo.css">
+<link rel="stylesheet" href="/assets/css/learning.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155413685-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-155413685-1');
+  </script>
+
+
+  </head>
+  <body>
+    <div id="wrapper">
+      <header id="top">
+<a href="/">
+  <div class="logo-container">
+    <img class="logo" src="/assets/logo/logo.svg" alt="Elixir Korea 로고">
+    <div>
+      <img class="logo-text" src="/assets/logo/logo-text.svg" alt="Elixir Korea">
+      <p>한국 엘릭서 사용자 모임 블로그</p>
+    </div>
+  </div>
+</a>
+</header>
+      <nav>
+<ul>
+  <li><a href="/index.html">Home</a></li>
+  <li><a href="/learning.html">Learning</a></li>
+  <li><a href="/posts">Posts</a></li>
+</ul>
+</nav>
+      <hr>
+      <main><article class="post"><header><h1 id="elixir-개발-환경을-설정해봅시다-(mac)">Elixir 개발 환경을 설정해봅시다 (Mac)</h1><p>
+      Saturday, 25 Apr 2020
+      
+        <span class="tags">
+          Tags:
+          
+            <a class="tag" href="/tags/elixir">elixir</a><a class="tag" href="/tags/setup">setup</a><a class="tag" href="/tags/vscode">vscode</a></span></p></header><div><p>안녕하세요. Json 입니다. Mac 에서 Elixir 로 개발할 때 일반적으로 사용되는 개발 환경 설정 방법을 알아보겠습니다.</p><h2 id="asdf">asdf</h2><p><strong>asdf</strong> 는 요즘 대세가 되어가고 있는 version manager 입니다.<br/><a href="https://asdf-vm.com/">asdf-vm - An extendable version manager</a></p><p>이전에는 각 언어별로 이런 툴이 있었는데 (nvm, rbenv, pyenv, sdkman, …),
+이제는 거의 asdf 로 통일되는 분위기 입니다.<br/>현존하는 대부분의 언어를 지원합니다.<br/><a href="https://asdf-vm.com/#/plugins-all">asdf-vm Plugin List</a></p><h3 id="asdf-설치">asdf 설치</h3><p><a href="https://asdf-vm.com/#/core-manage-asdf-vm?id=install-asdf-vm">Install asdf-vm</a> 문서를 참고해주세요.</p><p>저는 brew 로 설치해보았습니다.</p><pre><code class="bash">$ brew install asdf</code></pre><h2 id="elixir">Elixir</h2><p>elixir 는 erlang 을 기반으로 하는 언어라서 erlang, elixir 둘 다 설치가 필요합니다.</p><h3 id="asdf-에서-erlang-설치">asdf 에서 erlang 설치</h3><p><a href="https://github.com/asdf-vm/asdf-erlang#install">asdf-erlang Install</a> 문서를 참고해주세요.</p><pre><code class="bash"># erlang 설치 전 autoconf, wxmac 설치
+$ brew install autoconf
+$ brew install wxmac
+
+# asdf erlang plugin 설치
+$ asdf plugin-install erlang
+
+# erlang version 확인
+$ asdf list-all erlang
+...
+22.3.1
+22.3.2
+23.0-rc1
+
+# 위 목록에서 가장 최신인 22.3.2 를 설치해봅시다
+$ asdf install erlang 22.3.2</code></pre><h3 id="asdf-에서-elixir-설치">asdf 에서 elixir 설치</h3><p>erlang 설치 방법과 비슷합니다. <a href="https://github.com/asdf-vm/asdf-elixir#install">asdf-elixir Install</a> 문서를 참고해주세요.</p><pre><code class="bash"># asdf elixir plugin 설치
+$ asdf plugin-install elixir
+
+# elixir version 확인
+$ asdf list-all elixir
+...
+1.10.1
+1.10.1-otp-21
+1.10.1-otp-22
+1.10.2
+1.10.2-otp-21
+1.10.2-otp-22
+master
+master-otp-21
+master-otp-22
+
+# 위 목록에서 가장 최신인 1.10.2 를 설치해봅시다
+$ asdf install elixir 1.10.2</code></pre><h3 id="asdf-에서-erlang,-elixir-global-버전-설정">asdf 에서 erlang, elixir global 버전 설정</h3><p>asdf 에서는 local 버전이 설정되어있지 않을 때 공통적으로 적용되는 global 버전을 설정할 수 있습니다.<br/>어떤 버전을 설치한다고 global 버전이 자동으로 설정되지 않기 때문에 직접 설정해주어야 합니다.</p><pre><code class="bash">$ asdf global erlang 22.3.2
+$ asdf global elixir 1.10.2</code></pre><h3 id="asdf-에서-erlang,-elixir-local-버전-설정">asdf 에서 erlang, elixir local 버전 설정</h3><p>위에 언급했던 local 버전은 현재 path 와 그 하위 path 를 포함해 적용됩니다.<br/>설정하면 자동으로 <code class="inline">.tool_versions</code> 파일이 생성되어 그 안에 기록됩니다. <code class="inline">.tool_versions</code> 파일을 직접 수정해도 똑같이 적용됩니다.</p><pre><code class="bash">$ asdf local erlang 22.3.2
+$ asdf local elixir 1.10.2</code></pre><pre><code class=""># .tool_versions
+
+erlang 22.3.2
+elixir 1.10.2</code></pre><h2 id="vscode">VSCode</h2><p>Elixir 를 개발하기에 VSCode 는 매우 좋은 IDE 입니다.</p><p><a href="https://code.visualstudio.com/">Visual Studio Code - Code Editing. Redefined</a></p><h3 id="설치">설치</h3><p>는 알아서 ‘ㅁ’</p><h3 id="extension-설치">extension 설치</h3><ul><li><p>ElixirLS Fork</p><p><a href="https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls">VSCode ElixirLS extension</a></p><p>  VSCode 에서 Elixir 를 지원하도록 해주는 extension 입니다.</p></li><li><p>Dash</p><p><a href="https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-dash">VSCode Dash extension</a></p><p>  Dash 는 language, framework 등의 문서를 통째로 다운받아 매우 빠르고 편하게 볼 수 있도록 해주는 프로그램입니다. Elixir 는 압도적으로 문서화가 잘 되어있기 때문에 Dash 를 이용하면 개발에 매우 큰 도움이 됩니다. (유료)</p><p>  이 extension 은 궁금한 모듈이나 함수 위에 커서를 두고 <code class="inline">Ctrl + H</code> 를 누르면 바로 Dash 에서 해당 부분의 문서를 보여줍니다.</p><p>  아래 링크에서 Dash 를 설치한 후 사용하실 수 있습니다.</p><p><a href="https://kapeli.com/dash">Dash</a></p></li></ul><p>이러면 Elixir 로 개발하기 위한 기본적인 설정이 끝납니다. 참 쉽죠?</p></div></article></main>
+      <hr>
+      <footer>
+        
+<!--=====================================-->
+<!-- Override "includes/footer.html.eex" -->
+<!-- to customize your footer contents.  -->
+<!--=====================================-->
+
+        <p>
+          Powered by <a href="https://github.com/Dalgona/Serum">Serum</a> v1.4.0,
+          with <a href="https://github.com/Dalgona/serum-theme-essence">Essence</a> theme
+        </p>
+      </footer>
+    </div>
+    <script src="/assets/js/prism.js"></script>
+  </body>
+</html>
