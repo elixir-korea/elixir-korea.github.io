@@ -8,17 +8,17 @@ tags: elixir, setup, vscode
 
 ## asdf
 
-**asdf** 는 요즘 대세가 되어가고 있는 version manager 입니다.  
-[asdf-vm - An extendable version manager](https://asdf-vm.com/)
+**asdf** 는 요즘 대세가 되어가고 있는 runtime version manager 입니다.  
+[asdf - Manage multiple runtime versions with a single CLI tool](https://asdf-vm.com/)
 
-이전에는 각 언어별로 이런 툴이 있었는데 (nvm, rbenv, pyenv, sdkman, ...),
+이전에는 각각 이런 툴이 있었는데 (nvm, rbenv, pyenv, sdkman, ...),
 이제는 거의 asdf 로 통일되는 분위기 입니다.  
-현존하는 대부분의 언어를 지원합니다.  
-[asdf-vm Plugin List](https://asdf-vm.com/#/plugins-all)
+현존하는 대부분의 대상을 지원합니다.  
+[asdf - Plugins](https://github.com/asdf-community/)
 
 ### asdf 설치
 
-[Install asdf-vm](https://asdf-vm.com/#/core-manage-asdf-vm?id=install-asdf-vm) 문서를 참고해주세요.
+[asdf - Getting Started](https://asdf-vm.com/guide/getting-started.html) 문서를 참고해주세요.
 
 저는 brew 로 설치해보았습니다.
 
@@ -119,13 +119,13 @@ Elixir 를 개발하기에 VSCode 는 매우 좋은 IDE 입니다.
 
 - ElixirLS Fork
 
-    [VSCode ElixirLS extension](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls)
+    [ElixirLS: Elixir support and debugger](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls)
 
     VSCode 에서 Elixir 를 지원하도록 해주는 extension 입니다.
 
 - Dash
 
-    [VSCode Dash extension](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-dash)
+    [Dash extension](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-dash)
 
     Dash 는 language, framework 등의 문서를 통째로 다운받아 매우 빠르고 편하게 볼 수 있도록 해주는 프로그램입니다. Elixir 는 압도적으로 문서화가 잘 되어있기 때문에 Dash 를 이용하면 개발에 매우 큰 도움이 됩니다. (유료)
 
