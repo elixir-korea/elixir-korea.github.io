@@ -40,7 +40,7 @@ $ brew install autoconf
 $ brew install wxmac
 
 # asdf erlang plugin 설치
-$ asdf plugin-install erlang
+$ asdf plugin add erlang
 
 # erlang version 확인
 $ asdf list-all erlang
@@ -59,7 +59,7 @@ erlang 설치 방법과 비슷합니다. [asdf-elixir Install](https://github.co
 
 ```bash
 # asdf elixir plugin 설치
-$ asdf plugin-install elixir
+$ asdf plugin add elixir
 
 # elixir version 확인
 $ asdf list-all elixir
